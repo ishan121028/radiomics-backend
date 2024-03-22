@@ -5,6 +5,7 @@ import styled from 'styled-components';
 
 import Home from './pages/home';
 import CreateProject from './pages/createproject';
+import Login from './pages/login';
 
 import './App.css';
 
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route exact path="/" element= {<Home />} />
           <Route exact path="/createproject" element= {<CreateProject />} />
+          <Route exact path="/login" element= {<Login />} />
         </Routes>
     </Router>
   );
